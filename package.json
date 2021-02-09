@@ -1,0 +1,32 @@
+{
+  "name": "Eric's HRLA Async Callback Workshop",
+  "version": "1.0.0",
+  "description": "A callback review, originally created for HRLA42",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon public/server/index.js",
+    "build": "webpack -d --watch"
+  },
+  "author": "Eric Sung",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.14.0",
+    "jquery": "^3.5.1",
+    "live-server": "^1.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "json-loader": "^0.5.7",
+    "nodemon": "^1.11.0",
+    "webpack": "^1.13.2"
+  }
+}
